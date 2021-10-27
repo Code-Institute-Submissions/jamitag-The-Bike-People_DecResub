@@ -1,20 +1,63 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Titillium+Web:ital,wght@1,300&display=swap');
+
 * {
+    background-color: darkgrey;
     margin: 0;
     padding: 0;
     border: 0;
+    color: #f7f7f7
 }
 
+body {
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
 
-
-/* navigation bar */
-
+header {
+    
+    align-items: center;
+    padding: 30px 10%;
+    width: auto;
+    background-color: darkkhaki;
+}
 
 #brand {
-   
-    background-color: lightgreen;
+    float: left;
+    font-size: 200%;
+
 }
 
-#menu {
-    background-color: lightgray;
+#nav-bar {
+    height: 50px;
+} 
+
+.nav-bar ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 10%;
+    height: 50px;
+}
+
+.nav-bar li {
+    padding:0px 10px;
+    width: 150px;
+    float: left;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+}
+
+li:hover {
+    color: rgb(29, 104, 104);
+    background-color: #f7f7f7;
+}
+
+
+#main-img {
+    height: 200px;
 }
