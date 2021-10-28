@@ -24,37 +24,34 @@ header {
     padding: 30px 10%;
     width: 1200px;
     background-color: #696969;
-    height: 30px;
+    height: 80px;
 }
 
 #brand {
     float: left;
     font-size: 200%;
+    display: flex;
 
 }
 
 #sub-logo {
    color: #560319;
    float: left;
-   font-style: italic;
+   margin-right: 30%;
 }
-
-#nav-bar {
-    
-    
-} 
 
 #nav-bar ul {
     list-style: none;
-    margin-right: 10%;
+    margin-right: 4%;
     height: 50px;
     display: flex;
+    letter-spacing: 2px;
     
 }
 
 #nav-bar li {
     padding:0px 10px;
-    width: 150px;
+    width: auto;
     margin-bottom: 8px;
 }
 
@@ -77,13 +74,23 @@ header {
 }
 
 .active {
-    border: 1px solid #560319;
+    border-bottom: 1px solid #560319;
+    border-top: 1px solid #560319;
 }
 
 
 /* second section */
 
-#main-img {
-    height: 200px;
-    background-color: blanchedalmond;
+#hero-section {
+    height: 500px;
+    width: 100%;
+}
+
+#hero-img {
+    height: 500px;
+    width: 80%;
+    background: url('../images/hero-bike-img.webp') no-repeat center center;
+    filter: grayscale(50%);
+    margin-right: 10%;
+    margin-left: 10%;
 }
