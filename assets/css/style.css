@@ -24,7 +24,7 @@ header {
     padding: 30px 10%;
     width: 1200px;
     background-color: #696969;
-    height: 80px;
+    height: 60px;
 }
 
 #brand {
@@ -46,7 +46,6 @@ header {
     height: 50px;
     display: flex;
     letter-spacing: 2px;
-    
 }
 
 #nav-bar li {
@@ -65,7 +64,7 @@ header {
     line-height: 50px;
     display: block;
     float: right;
-    width: auto;  
+    width: auto;
     
 }
 
@@ -79,12 +78,12 @@ header {
     border-top: 1px solid #560319;
 }
 
-
 /* main image section */
 
 #hero-section {
-    height: 80vh;
+    height: 600px;
     width: 100vw;
+    background-image: fixed;
 }
 
 #hero-img {
@@ -104,5 +103,44 @@ header {
     font-weight: 100;
     display: flex;
     margin-top: 5%;
-
+    width: 400px;
+    font-weight: bold;
 }
+
+
+/* what we do section */
+
+#services-header {
+    text-align: center;
+    padding-top: 0%;
+    padding-top: 0%;
+    margin: 0 10%;
+    padding-bottom: 0%;
+    background-color: rgb(129, 127, 127);
+   
+}
+
+#what-we-do-section {
+    margin: 0% 10%;
+    padding: 50px;
+}
+
+#services {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    list-style: none;
+    float: left;
+    margin-left: 20%;
+}
+
+#social-spins {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    list-style: none;
+    float: right;
+    margin-right: 20%;
+}
+
+
