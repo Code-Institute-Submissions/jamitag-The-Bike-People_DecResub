@@ -116,7 +116,7 @@ header {
     padding-top: 0%;
     margin: 0 10%;
     padding-bottom: 0%;
-    background-color: rgb(129, 127, 127);
+    font-size: 200%;
    
 }
 
@@ -126,21 +126,78 @@ header {
 }
 
 #services {
-    width: 200px;
-    height: 200px;
-    border: solid black;
+    width: 400px;
+    height: 400px;
     list-style: none;
     float: left;
-    margin-left: 20%;
+    margin-left: 15%;
+    background-color: rgb(129, 127, 127);
+    border-radius: 50%;
+    margin-top: 3%;
+    
+}
+
+#services i {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20% 25%;
+    line-height: 200px;
+}
+
+#services i:hover {
+    color: #560319;
 }
 
 #social-spins {
-    width: 200px;
-    height: 200px;
-    border: solid black;
+    width: 400px;
+    height: 400px;
     list-style: none;
     float: right;
-    margin-right: 20%;
+    margin-right: 15%;
+    background-color: rgb(129, 127, 127);
+    border-radius: 50%;
+    margin-top: 3%;
+}
+
+#social-spins i {
+    width: 200px;
+    height: 200px;
+    margin: 18% 23%;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+#social-spins i:hover {
+    color: #560319;
 }
 
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 150%;
+    margin: 5%;
+    padding: 5%;
+    color: #f7f7f7
+}
+
+.socials i:hover {
+    color: #560319;
+}
