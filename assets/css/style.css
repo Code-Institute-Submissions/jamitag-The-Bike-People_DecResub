@@ -83,7 +83,6 @@ header {
 #hero-section {
     height: 600px;
     width: 100vw;
-    background-image: fixed;
 }
 
 #hero-img {
@@ -110,14 +109,13 @@ header {
 
 /* what we do section */
 
-#services-header {
+.services-header {
     text-align: center;
     padding-top: 0%;
     padding-top: 0%;
     margin: 0 10%;
     padding-bottom: 0%;
     font-size: 200%;
-   
 }
 
 #what-we-do-section {
@@ -201,3 +199,44 @@ footer {
 .socials i:hover {
     color: #560319;
 }
+
+/* service page */
+
+#service-img-container {
+    height: 600px;
+    width: 100vw;  
+}
+
+#service-img {
+    background: url('../images/pikwizard-bicycles-in-workshop.jpg') no-repeat center center;
+    height: 600px;
+    width: 80vw;
+    filter: grayscale(50%);
+    margin-right: 10%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+#chain-img-container {
+    width: 400px;
+    height: 400px;
+    margin: 5% 10%;
+    float: left;
+}
+
+#chain-img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(60%);
+    float: left;
+    border-radius: 20%;
+}
+
+#serviced {
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin: 10% 10% 0 0;
+}
+
+        
