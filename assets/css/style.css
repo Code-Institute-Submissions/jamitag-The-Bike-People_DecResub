@@ -123,6 +123,12 @@ header {
     padding: 50px;
 }
 
+.home-text {
+    text-align: center;
+    margin: 2% 10%;
+    padding-bottom: 0%;  
+}
+
 #services {
     width: 400px;
     height: 400px;
@@ -136,8 +142,7 @@ header {
 }
 
 #services a {
-    background-color: #560319;
-    width: n;
+    background-color: rgb(129, 127, 127);
 }
 
 #services i {
@@ -166,7 +171,7 @@ header {
 }
 
 #social-spins a {
-    background-color: #560319;
+    background-color: rgb(129, 127, 127);
 }
 
 #social-spins i {
@@ -262,7 +267,7 @@ footer {
     float: left;
     width: 33%;
     height: 400px;
-    border: 1px solid white;
+    border: 1px solid #f7f7f7;
     border-radius: 1%;
 }
 
@@ -290,12 +295,43 @@ footer {
 
 /* social-spins page */
 
+#spin-img-container {
+    height: 600px;
+    width: 100vw;  
+}
+
+#spin-img {
+    background: url('../images/group-cycle-.jpg') no-repeat center center;
+    height: 600px;
+    width: 80vw;
+    filter: grayscale(90%);
+    margin-right: 10%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+#spin-header {
+    text-align: center;
+    padding-top: 0%;
+    margin: 2% 10%;
+    padding-bottom: 0%;
+    font-size: 200%;
+}
+
+#spin-para {
+    text-align: center;
+    padding-top: 0%;
+    margin: 2% 10% 5% 10%;
+    padding-bottom: 0%;  
+}
+
+/* rides tables */
+
 .rides-table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    font-size: 0.9em;
-    min-width: 600px;
+    min-width: 700px;
     text-align: center;
 }
 
@@ -303,13 +339,56 @@ footer {
     color: #560319;
     background-color: rgb(129, 127, 127);
     padding: 20px;
-    font-weight: bold;
 }
 
 .rides-table th {
     color: black;
     font-weight: bold;
+    padding: 20px;
 }
 
-background-color: rgb(129, 127, 127);
+/* form */
+
+#form-header {
+    margin: 2% 10%;
+}
+
+#form {
+    width: 450px;
+    height: 400px;
+    margin: 5% 10%;
+    border: 1px solid #f7f7f7;
+    text-align: center;
+    padding-top: 2%;
+    background-color: rgb(129, 127, 127);
+}
+
+#form input {
+    border: 1px solid #f7f7f7;
+    background-color: rgb(129, 127, 127);
+    border-radius: 4%;
+    padding: 5px;
+    margin: 5px;
+}
+
+#form label {
+    background-color: rgb(129, 127, 127);
+}
+
+#form h3 {
+    background-color: rgb(129, 127, 127);
+}
+
+.buttons {
+    margin: 5%;
+    background-color: #f7f7f7;
+    color: #560319;
+}
+
+.buttons:hover {
+    background-color: #560319;;
+    color: #f7f7f7
+}
+
+
         
