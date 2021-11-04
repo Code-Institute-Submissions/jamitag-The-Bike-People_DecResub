@@ -22,15 +22,57 @@ This section displays the services available to our customers. Two simple option
 
 The footer is made up of links to several social media sites which will open in a new tab when selected.  The Bike People's social media presence provides us an additional opportunity to provide information to our customers and where they can engage with ourselves as well as fellow cyclists.
 
-### Features to add
-
 - __Services page__
 
-This will include details of different services available and a form to make a booking.
+This page will display all information relating to services available. It will detail each level of service and the price so the user can decide which service best fits their needs.
 
 - __Social Spins page__
 
-This will include information on various social spins we offer as well as a booking form.
+This page provides information to the user about regular Social Spins which take place 4 timtes a week. Here, the user will discover the when and where as well as suitability of the ride to ensure each participant has an enjoyable ride. There is a form on this page for users to book their place on ride.
+
+
+### Features to add
+
+To be updated
+
+## User Experience (UX)
+
+### User Stories
+
+#### As a user
+
+- I want to navigate through the site as smooth as possible.
+- Few button clicks to get to my destination.
+- Easily identifiable information on rides available.
+- Clear method of booking onto rides.
+- A way of interacting with The Bike People via social media.
+
+#### As a site owner
+
+- I want display all the products and services clearly to customers and potential customer.
+- I want users to have a smooth and intuitive experience on this website.
+- I want users to use the form for booking onto rides instead of contacing us via email/telephone.
+- I want our users to stay in touch through our social media presence.
+
+## Technologies
+
+### Editor
+- GitPod
+
+
+### Languages
+- HTML5
+- CSS3
+
+
+### Version control
+- GitHub
+
+
+### Libraries
+- Font Awesome
+- Google Fonts
+- Stock Images
 
 ## Testing
 
