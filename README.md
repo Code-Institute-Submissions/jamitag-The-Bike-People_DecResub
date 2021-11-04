@@ -1,5 +1,7 @@
 # The Bike People
 
+**view website - insert link here**
+
 This is a website intended for bike users and enthusiasts alike. For anyone wishing to service or maintain their bicycle, The Bike People offer service and maintenence plans to meet various requirements and budgets. The website will also provide an opportunity for cyclist to come together and socialise by providing access to a community of like minded cycling enthusiasts who arrange regular rides around the Edinburgh and Lothian region several times a week. Our passionate cycling professionals are knowledgable and skilled, ensuring everyone has a cycling experience to remember. Visitors to the website will be able to book their maintenence requirements as well as book onto any of our group rides which roll out each morning, catering to a range of abilities.
 
 ## Features 
@@ -34,6 +36,12 @@ This page provides information to the user about regular Social Spins which take
 ### Features to add
 
 To be updated
+
+### Design
+
+## Color scheme
+
+## Typography
 
 ## User Experience (UX)
 
