@@ -36,9 +36,7 @@ header {
 #sub-logo {
    color: #560319;
    float: left;
-   position: relative;
-   top: 50px;
-   right: 250px;
+   margin-left: 5%;
 }
 
 #nav-bar {
@@ -63,7 +61,8 @@ header {
     text-decoration: none;
     display: block;
     float: right;
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -107,28 +106,18 @@ header {
 
 .services-header {
     text-align: center;
-    padding-top: 0%;
-    padding-top: 0%;
-    margin: 2% 10%;
-    padding-bottom: 0%;
+    margin: 2% auto;
     font-size: 200%;
-}
-
-#what-we-do-section {
-    margin: 0% 10%;
-    padding: 50px;
 }
 
 .home-text {
     text-align: center;
-    margin: 2% 10%;
-    padding-bottom: 0%;  
+    margin: 2% auto; 
 }
 
 #icons {
-    display: inline-block;
-    margin: 5% 30%;
-    white-space: normal;
+    text-align: center;
+    margin: 5% auto;
 }
 
 #icons span {
@@ -168,35 +157,32 @@ footer {
     color: #560319;
 }
 
-/* service page */
+/* servicing page */
 
 #service-img-container {
     height: 600px;
-    width: 100vw;  
+    width: 100%;  
 }
 
 #service-img {
     background: url('../images/pikwizard-bicycles-in-workshop.jpg') no-repeat center center;
     height: 600px;
-    width: 80vw;
+    width: 100%;
     filter: grayscale(50%);
-    margin-right: 10%;
-    margin-left: 10%;
-    position: absolute;
+    display: flex;
 }
 
 #chain-img-container {
     width: 400px;
     height: 400px;
     margin: 5% 10%;
-    float: left;
+    display: inline-block;
 }
 
 #chain-img {
     width: 100%;
     height: 100%;
     filter: grayscale(60%);
-    float: left;
     border-radius: 5%;
 }
 
@@ -207,14 +193,9 @@ footer {
     margin: 10% 10% 0 0;
 }
 
-#serviced p {
-    line-height: 20px;
-}
-
 #plans_section {
     margin: 3% 10%;
     text-align: center;
-    position: relative;
 }
 
 .service_plans {
@@ -251,38 +232,32 @@ footer {
 
 #spin-img-container {
     height: 600px;
-    width: 100vw;  
+    width: 100%;  
 }
 
 #spin-img {
     background: url('../images/group-cycle-.jpg') no-repeat center center;
     height: 600px;
-    width: 80vw;
+    width: 100%;
     filter: grayscale(90%);
-    margin-right: 10%;
-    margin-left: 10%;
-    position: absolute;
+    display: flex;
 }
 
 #spin-header {
     text-align: center;
-    padding-top: 0%;
-    margin: 2% 10%;
-    padding-bottom: 0%;
+    margin: 2% auto;
     font-size: 200%;
 }
 
 #spin-para {
     text-align: center;
     padding-top: 0%;
-    margin: 2% 10% 5% 10%;
-    padding-bottom: 0%;  
+    margin: 2% auto 5% auto; 
 }
 
 /* rides tables */
 
 .rides-table {
-    border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     min-width: 700px;
@@ -297,24 +272,28 @@ footer {
 
 .rides-table th {
     color: black;
-    font-weight: bold;
     padding: 20px;
 }
 
 /* form */
 
 #form-header {
-    margin: 2% 10%;
+    text-align: center;
+    margin: 5% auto;
 }
 
 #form {
     width: 450px;
     height: 400px;
-    margin: 5% 35%;
+    margin: auto;
     border: 1px solid #f7f7f7;
     text-align: center;
     padding-top: 2%;
     background-color: rgb(129, 127, 127);
+}
+
+#form h3 {
+    padding: 20px 0 10px 0;
 }
 
 #form input {
@@ -334,14 +313,12 @@ footer {
 }
 
 .buttons {
-    margin: 5%;
-    background-color: #f7f7f7;
-    color: #560319;
+    padding: 10px;
+    color: #f7f7f7;
 }
 
 .buttons:hover {
-    background-color: #560319;;
-    color: #f7f7f7
+    color: #560319;
 }
 
 
