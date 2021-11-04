@@ -201,14 +201,19 @@ footer {
 .service_plans {
     float: left;
     width: 33%;
-    height: 400px;
+    height: 450px;
     border: 1px solid #f7f7f7;
     border-radius: 1%;
 }
 
 .service_plans h2 {
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding: 10px 0;
+}
+
+.service_plans p {
+    padding: 10px 0;
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 #bronze h2 {
