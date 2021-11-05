@@ -339,7 +339,9 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    
+    #plans-section {
+        display: unset;
+    }
 
 
 }
@@ -365,6 +367,10 @@ footer {
     
     .services-header {
         margin-top: 10%;
+    }
+
+    .service_plans li {
+        font-size: 0.8rem;
     }
 
 }
