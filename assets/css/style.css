@@ -190,11 +190,17 @@ footer {
 #serviced {
     width: 600px;
     height: 400px;
-    float: right;
-    margin: 10% 10% 0 0;
+    margin: 5% auto;
+    padding: 40px;
+    box-sizing: border-box;
 }
 
-.service-container{
+.service-container1 {
+    display: flex;
+    width: 100%;
+}
+
+.service-container {
     display: flex;
     width: 100%;
 }
@@ -333,10 +339,14 @@ footer {
 /* for screens below 1200px */
 
 @media screen and (max-width: 1200px) {
+    .service-container1 {
+        display: block;
+        margin: auto;
+    }
 
-
-
-
+    #chain-img {
+        margin: 0 50%;
+    }
 }
 
 /* For medium screen sizes*/
@@ -381,6 +391,10 @@ footer {
         height: 400px;
     }
 
+    #chain-img {
+        margin: 0 auto;
+    }
+
 }
 
 /* For smaller screen sizes*/
@@ -420,7 +434,7 @@ footer {
 
     .rides-table caption {
         width: 50%;
-        text-align: center;
+        margin: 0 5%;
     }
 
     #silver {
@@ -429,6 +443,17 @@ footer {
 
     #gold {
         height: 600px;
+    }
+
+    #chain-img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+    #serviced {
+        width: 400px;
+        margin-top: 0;
     }
 
 }
