@@ -194,11 +194,9 @@ footer {
     margin: 10% 10% 0 0;
 }
 
-#plans_section {
-    margin: 3% 10%;
-    text-align: center;
-    display: inline-flex;
-    margin: 5% 15%;
+.service-container{
+    display: flex;
+    width: 100%;
 }
 
 
@@ -207,6 +205,7 @@ footer {
     height: 600px;
     border: 1px solid #f7f7f7;
     border-radius: 1%;
+    text-align: center;
 }
 
 .service_plans h2 {
@@ -217,10 +216,6 @@ footer {
     padding: 10px 0;
     font-size: 1.5em;
     margin-bottom: 20px;
-}
-
-#bronze {
-   
 }
 
 #bronze h2 {
@@ -339,9 +334,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    #plans-section {
-        display: unset;
-    }
+
 
 
 }
@@ -369,8 +362,23 @@ footer {
         margin-top: 10%;
     }
 
-    .service_plans li {
-        font-size: 0.8rem;
+    .service-container{
+        display: block;
+        width: 250%;
+        clear: both;
+        margin: 0 7%;
+    }
+
+    #bronze {
+        height: 250px;
+    }
+
+    #silver {
+        height: 350px;
+    }
+
+    #gold {
+        height: 400px;
     }
 
 }
@@ -413,6 +421,14 @@ footer {
     .rides-table caption {
         width: 50%;
         text-align: center;
+    }
+
+    #silver {
+        height: 450px;
+    }
+
+    #gold {
+        height: 600px;
     }
 
 }
