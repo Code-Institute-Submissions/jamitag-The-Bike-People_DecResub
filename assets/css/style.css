@@ -26,29 +26,32 @@ header {
 }
 
 #brand {
-    
     float: left;
     font-size: 200%;
     line-height: 80px;
     margin-left: 5%;
+    line-height: 30px;
 }
 
 #sub-logo {
    color: #560319;
-   float: left;
-   margin-left: 5%;
+   font-size: 1rem;
 }
 
 #nav-bar {
-    height: 80px;
-    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
     float: right;
     margin-right: 5%;
 }
 
 #nav-bar ul {   
+    margin: 0;
+    padding: 0;
     list-style: none;
-    letter-spacing: 2px;
+    display: flex;
 }
 
 #nav-bar li {
@@ -60,9 +63,7 @@ header {
 #nav-bar li a {
     text-decoration: none;
     display: block;
-    float: right;
-    padding: 10px;
-    margin: 10px;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -196,12 +197,14 @@ footer {
 #plans_section {
     margin: 3% 10%;
     text-align: center;
+    display: inline-flex;
+    margin: 5% 15%;
 }
 
+
 .service_plans {
-    float: left;
     width: 33%;
-    height: 450px;
+    height: 600px;
     border: 1px solid #f7f7f7;
     border-radius: 1%;
 }
@@ -214,6 +217,10 @@ footer {
     padding: 10px 0;
     font-size: 1.5em;
     margin-bottom: 20px;
+}
+
+#bronze {
+   
 }
 
 #bronze h2 {
@@ -326,5 +333,92 @@ footer {
     color: #560319;
 }
 
+/* media queries */
 
+/* for screens below 1200px */
+
+@media screen and (max-width: 1200px) {
+
+    .service_plans {
+        width: 100%;
+        property: initial;
+    }
+
+
+}
+
+/* For medium screen sizes*/
+
+@media screen and (max-width: 786px) {
+
+    #nav-bar {
+        width: 100%;
+    }
+    
+    #menu-items li {
+        align-items: center;
+        position: relative;
+        left: 60px;
+    }
+
+    #menu-items li a {
+        text-align: center;
         
+    }
+    
+    .services-header {
+        margin-top: 10%;
+    }
+
+}
+
+/* For smaller screen sizes*/
+
+@media screen and (max-width: 680px) {
+    .socials i {
+        padding: 30px;
+        margin: 0;
+    }
+
+    #menu-items {
+        flex-direction: column;
+    }
+
+    #menu-items li {
+        align-items: center;
+        position: relative;
+        left: 120px;
+        margin-top: 10%;
+    }
+
+    .services-header {
+        margin-top: 40%;
+    }
+
+    #spin-header {
+        margin-top: 40%;
+    }
+
+    #spin-para {
+        line-height: 20px;
+    }
+
+    #form-header {
+        line-height: 20px;
+    }
+
+    .rides-table caption {
+        width: 50%;
+        text-align: center;
+    }
+
+}
+
+/* separate media query for booking form */
+
+@media screen and (max-width: 680px) {
+    #form {
+        width: 350px;
+    }
+
+}
