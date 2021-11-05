@@ -339,10 +339,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    .service_plans {
-        width: 100%;
-        property: initial;
-    }
+    
 
 
 }
