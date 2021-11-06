@@ -176,7 +176,7 @@ footer {
 #chain-img-container {
     width: 400px;
     height: 400px;
-    margin: 5% 10%;
+    margin: 5%;
     display: inline-block;
 }
 
@@ -391,8 +391,26 @@ footer {
         height: 400px;
     }
 
+    #chain-img-container {
+        margin: 10% 3%;
+        width: 300px;
+        height: 300px;
+    }
+
     #chain-img {
         margin: 0 auto;
+    }
+
+    #serviced {
+        padding: 0;
+        margin: 0 12%;
+        text-align: center;
+        height: 480px;
+    }
+
+    #serviced p {
+        padding: 0;
+        width: 250px;
     }
 
 }
@@ -425,6 +443,7 @@ footer {
     }
 
     #spin-para {
+        margin-top: 20%;
         line-height: 20px;
     }
 
@@ -456,13 +475,16 @@ footer {
         margin-top: 0;
     }
 
-}
-
-/* separate media query for booking form */
-
-@media screen and (max-width: 680px) {
     #form {
-        width: 350px;
+        width: 300px;
+    }
+
+    .socials i {
+        padding: 10px;
+    }
+
+    #serviced {
+       
     }
 
 }
