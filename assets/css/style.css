@@ -351,7 +351,7 @@ footer {
 
 /* For medium screen sizes*/
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 770px) {
 
     #nav-bar {
         width: 100%;
@@ -392,25 +392,27 @@ footer {
     }
 
     #chain-img-container {
-        margin: 10% 3%;
+        margin: 5%;
         width: 300px;
         height: 300px;
     }
 
     #chain-img {
-        margin: 0 auto;
+        text-align: center;
+        margin: 0 60%;
     }
 
     #serviced {
         padding: 0;
-        margin: 0 12%;
+        margin: 0 30%;
         text-align: center;
-        height: 480px;
+        height: 500px;
     }
 
     #serviced p {
         padding: 0;
         width: 250px;
+        text-align: center;
     }
 
 }
@@ -487,4 +489,16 @@ footer {
        
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .services-header {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .services-header {
+        margin-top: 65%;
+    }
 }
