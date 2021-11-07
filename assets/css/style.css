@@ -417,7 +417,7 @@ footer {
 
 }
 
-/* For smaller screen sizes*/
+/* For small / medium screen sizes*/
 
 @media screen and (max-width: 680px) {
     .socials i {
@@ -491,10 +491,37 @@ footer {
 
 }
 
+/* For small / medium screen sizes*/
+
 @media screen and (max-width: 400px) {
+
     .services-header {
         margin-top: 50%;
     }
+
+    #chain-img {
+        margin: auto;
+    }
+
+    #serviced {
+        margin: 10%;
+        text-align: center;
+    }
+    
+    #spin-header {
+        margin-top: 50%;
+    }
+
+    #spin-para {
+        margin-top: 5%;
+    }
+
+    .rides-table caption {
+        height: 50px;
+        width: 300px;
+        margin: 3%;
+    }
+
 }
 
 @media screen and (max-width: 350px) {
