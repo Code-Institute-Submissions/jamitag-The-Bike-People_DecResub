@@ -529,3 +529,13 @@ footer {
         margin-top: 65%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    #nav-bar {
+        margin: 12%;
+    }
+
+    #chain-img {
+        margin-top: 10%;
+    }
+}
