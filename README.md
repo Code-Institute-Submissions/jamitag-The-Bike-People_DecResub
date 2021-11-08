@@ -86,4 +86,10 @@ This page provides information to the user about regular Social Spins which take
 
 ## Testing
 
-### Validator Testing 
+### Compatability
+
+I tested the sites compatabillity on different browsers and screen resolutions. Across multiple browsers (Chrome, Safari and Mozilla) the site appeared largely as expected, the exception being on Safari; my selected font, Raleway failed to function. Several devices of varying screen sizes (Iphone 12, MacBook Pro, Ipad) where also tested.
+
+### Validator testing 
+
+### Performance testing
