@@ -30,12 +30,14 @@ This page will display all information relating to services available. It will d
 
 - __Social Spins page__
 
-This page provides information to the user about regular Social Spins which take place 4 timtes a week. Here, the user will discover the when and where as well as suitability of the ride to ensure each participant has an enjoyable ride. There is a form on this page for users to book their place on ride.
+This page provides information to the user about regular Social Spins which take place 4 times a week. Here, the user will discover the when and where as well as suitability of the ride to ensure each participant has an enjoyable ride. There is a form on this page for users to book their place on a ride.
 
 
-### Features to add
+### Features for the future
 
-To be updated
+- A chat feature whereby customers can be directed to a chat function with one of our technicians to discuss any maintenance / servicing queries.
+- A gallery, illustrating the various scenic rides we offer.
+- Some animation features across the whole site once developers skill improves.
 
 ### Design
 
