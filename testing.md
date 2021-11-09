@@ -31,7 +31,7 @@ showed no errors.
 
 Performance was tested using the Lighthouse report function within Chrome Dev Tools.
 
-The following results where gernerated;
+The following results where generated;
 
 - Homepage for desktop result
 
@@ -77,10 +77,10 @@ display: block in the media query to revert to a vertical position.
 
 <b>Issue</b>
 I created a table displaying the ride details on the Social Spin page which when viewed on a desktop, appeared 
-nicely acros the width og the screen. However, when the screen size was reduced, I had difficulty making the 
+neatly across the width of the screen. However, when the screen size was reduced, I had difficulty making the 
 table display vertically.
 
 <b>Solution</b>
-I was unable to find a solution to make the table display correctly for mobile devices and therefore decided 
-to replace the table with multiple divs displaying the necessary information which I was the able to make 
-responsive.
+I was unable to find a solution to make the table display vertically for mobile devices and therefore decided 
+to replace the table with multiple divs containing the necessary information which I was then able to make 
+responsive using the technique I had picked up from the previous issue.
