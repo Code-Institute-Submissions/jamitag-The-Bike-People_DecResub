@@ -84,3 +84,9 @@ table display vertically.
 I was unable to find a solution to make the table display vertically for mobile devices and therefore decided 
 to replace the table with multiple divs containing the necessary information which I was then able to make 
 responsive using the technique I had picked up from the previous issue.
+
+<b>Issue</b>
+I discovered that when using the safari browser, the Raleway font did not function.
+
+<b>Solution</b>
+This has been left unresolved; the alternate text that displays on safari is suitable and all other functions and properties are as they should be.
