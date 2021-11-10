@@ -176,11 +176,16 @@ footer {
     display: flex;
 }
 
+.service-container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0 12%;
+}
+
 #chain-img-container {
     width: 400px;
     height: 400px;
-    margin: 5%;
-    display: inline-block;
 }
 
 #chain-img {
@@ -188,33 +193,30 @@ footer {
     height: 100%;
     filter: grayscale(60%);
     border-radius: 5%;
+    margin: 0 10%;
 }
 
-#serviced {
+#service-para {
     width: 600px;
     height: 400px;
-    margin: 5% auto;
-    padding: 40px;
+    margin: 5%;
     box-sizing: border-box;
 }
 
-.service-container1 {
+.service-plans-container {
     display: flex;
     width: 100%;
-}
-
-.service-container {
-    display: flex;
-    width: 100%;
+    margin: auto;
 }
 
 
 .service_plans {
-    width: 33%;
+    width: 30%;
     height: 600px;
-    border: 1px solid #f7f7f7;
-    border-radius: 1%;
+    border-radius: 10%;
     text-align: center;
+    margin: auto;
+    background-color: darkgrey;
 }
 
 .service_plans h2 {
@@ -227,16 +229,35 @@ footer {
     margin-bottom: 20px;
 }
 
-#bronze h2 {
-    color:rgb(205, 127, 50);
+#bronze-section {
+    background-color: rgb(205, 127, 50);
 }
 
-#silver h2 {
-    color: silver;
+#bronze- section h2 {
+    color:#f7f7f7;
 }
 
-#gold h2 {
-    color: rgb(218,165,32);
+#silver-section {
+    background-color: silver;
+}
+
+#silver-section h2 {
+    color: #f7f7f7;
+}
+
+#gold-section {
+    background-color: rgb(218,165,32);
+}
+
+#gold-section h2 {
+    color: #f7f7f7;
+}
+
+.prices {
+    height: 30px;
+    width: 100%;
+    color: #560319;
+    background-color: rgb(242,244,244);
 }
 
 .service_plans > ul {
@@ -349,7 +370,7 @@ footer {
 /* for screens below 1200px */
 
 @media screen and (max-width: 1200px) {
-    .service-container1 {
+    .service-container {
         display: block;
         margin: auto;
     }
@@ -382,7 +403,7 @@ footer {
         margin-top: 10%;
     }
 
-    .service-container{
+    .service-plans-container {
         display: block;
         width: 250%;
         clear: both;
@@ -412,14 +433,14 @@ footer {
         margin: 0 60%;
     }
 
-    #serviced {
+    #service-para {
         padding: 0;
         margin: 0 30%;
         text-align: center;
         height: 500px;
     }
 
-    #serviced p {
+    #service-para p {
         padding: 0;
         width: 250px;
         text-align: center;
@@ -482,7 +503,7 @@ footer {
         margin-bottom: 0;
     }
 
-    #serviced {
+    #service-para {
         width: 400px;
         margin-top: 0;
     }
@@ -513,7 +534,7 @@ footer {
         margin: auto;
     }
 
-    #serviced {
+    #service-para {
         margin: 10%;
         text-align: center;
     }
