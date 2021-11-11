@@ -11,10 +11,8 @@
 </head>
 <body>
     <header>
-        <section>
         <a href="index.html">  <!-- ensures logo links back to homepage -->
             <h1 id="brand">The Bike People <br> <span id="sub-logo">We're passionate about bikes</span></h1>
-            
         </a>
         <nav id="nav-bar">
             <ul id="menu-items">
@@ -29,8 +27,10 @@
                 </li>
             </ul>
         </nav>
-        </section>
     </header>
+
+<!-- service image with accompanying text -->
+
     <section id="spin-img-container">
         <div id="spin-img"></div>
     </section>
@@ -39,6 +39,9 @@
         <div id="spin-para"><p>Join us on a guided group ride which roll out from The Bike People several times a week. Discover the best of the dramatic coastline in East Lothian or epic climbs in the Borders.</p>
         </div>
     </section>
+
+<!-- Timetable for social spins-->
+
     <section>
         <h2 id="ride-header">Meet us at The Bike People for any of the below rides!</h2>
         <div class="ride-times">
@@ -64,9 +67,12 @@
             </div>
         </div>
     </section>
+
+<!-- Contact form -->
+
     <section>
         <h3 id="form-header">If you would like to roll out with us, please fill out the below form below and book your place.</h3>
-        <form action="#" method="POST" id="form">
+        <form action="form-submit.html" method="get" class="form">
             <ul>
                 <li><label for="fname">First name:</label></li>
                 <li><input type="text" id="fname" name="fname" required></li>
@@ -75,13 +81,13 @@
                 <li><label for="email">Email Address:</label></li>
                 <li><input type="email" id="email" name="email" required></li>
                 <h3>Please select your preferred ride</h3>
-                <li><input type="radio" id="monday" name="ride_day" value="Monday" class="day">
+                <li><input type="radio" id="monday" name="ride_day" value="Monday">
                 <label for="monday">Monday</label></li>
-                <li><input type="radio" id="thursday" name="ride_day" value="Thursday" class="day">
+                <li><input type="radio" id="thursday" name="ride_day" value="Thursday">
                 <label for="thursday">Thursday</label></li>
-                <li><input type="radio" id="friday" name="ride_day" value="Friday" class="day">
+                <li><input type="radio" id="friday" name="ride_day" value="Friday">
                 <label for="friday">Friday</label></li>
-                <li><input type="radio" id="sunday" name="ride_day" value="Sunday" class="day">
+                <li><input type="radio" id="sunday" name="ride_day" value="Sunday">
                 <label for="sunday">Sunday</label></li>
             <div class="pair-buttons">
                 <li><input type="submit" value="Submit" class="buttons"></li>
