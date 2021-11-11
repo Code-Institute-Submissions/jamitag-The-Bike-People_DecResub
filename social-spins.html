@@ -67,23 +67,27 @@
     <section>
         <h3 id="form-header">If you would like to roll out with us, please fill out the below form below and book your place.</h3>
         <form action="#" method="POST" id="form">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email Address:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <h3>Please select your preferred ride</h3>
-            <input type="radio" id="monday" name="ride_day" value="Monday">
-            <label for="monday">Monday</label><br>
-            <input type="radio" id="thursday" name="ride_day" value="Thursday">
-            <label for="thursday">Thursday</label><br>
-            <input type="radio" id="friday" name="ride_day" value="Friday">
-            <label for="friday">Friday</label><br>
-            <input type="radio" id="sunday" name="ride_day" value="Sunday">
-            <label for="sunday">Sunday</label><br>
-            <input type="submit" value="Submit" class="buttons">
-            <input type="reset" class="buttons"> 
+            <ul>
+                <li><label for="fname">First name:</label></li>
+                <li><input type="text" id="fname" name="fname" required></li>
+                <li><label for="lname">Last name:</label></li>
+                <li><input type="text" id="lname" name="lname" required></li>
+                <li><label for="email">Email Address:</label></li>
+                <li><input type="email" id="email" name="email" required></li>
+                <h3>Please select your preferred ride</h3>
+                <li><input type="radio" id="monday" name="ride_day" value="Monday" class="day">
+                <label for="monday">Monday</label></li>
+                <li><input type="radio" id="thursday" name="ride_day" value="Thursday" class="day">
+                <label for="thursday">Thursday</label></li>
+                <li><input type="radio" id="friday" name="ride_day" value="Friday" class="day">
+                <label for="friday">Friday</label></li>
+                <li><input type="radio" id="sunday" name="ride_day" value="Sunday" class="day">
+                <label for="sunday">Sunday</label></li>
+            <div class="pair-buttons">
+                <li><input type="submit" value="Submit" class="buttons"></li>
+                <li><input type="reset" class="buttons"></li>
+            </div>
+        </ul>
         </form> 
     </section>
     <footer>
