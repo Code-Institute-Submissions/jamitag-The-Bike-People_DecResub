@@ -15,8 +15,6 @@ body {
     letter-spacing: 4px;
 }
 
-/* navigation bar */
-
 header {
     align-items: center;
     height: 60px;
@@ -24,6 +22,8 @@ header {
     padding: 30px 0%;
     background-color: #796969;
 }
+
+/* logo */
 
 #brand {
     float: left;
@@ -33,10 +33,14 @@ header {
     line-height: 30px;
 }
 
+/* text beneath logo */
+
 #sub-logo {
    color: #560319;
    font-size: 1rem;
 }
+
+/* navigation bar */
 
 #nav-bar {
     display: flex;
@@ -66,7 +70,6 @@ header {
 
 #nav-bar li a:hover {
     color: #560319;
-    background-color: #696969;
 }
 
 .active {
@@ -167,7 +170,7 @@ footer {
 }
 
 #service-img {
-    background: url('../images/pikwizard-bicycles-in-workshop.jpg') no-repeat center center;
+    background: url('../images/bicycle-workshop.png') no-repeat center center;
     height: 600px;
     width: 100%;
     filter: grayscale(50%);
@@ -200,6 +203,8 @@ footer {
     margin: 5%;
     box-sizing: border-box;
 }
+
+/* Service plans */
 
 .service-plans-container {
     display: flex;
@@ -398,6 +403,11 @@ footer {
         margin: auto;
     }
 
+    #service-para p {
+        text-align: center;
+        width: 400px;
+    }
+
     #chain-img {
         margin: 0 50%;
     }
@@ -406,6 +416,10 @@ footer {
 /* For medium screen sizes*/
 
 @media screen and (max-width: 770px) {
+
+    header {
+        height: 90px;
+    }
 
     #nav-bar {
         width: 100%;
@@ -427,22 +441,8 @@ footer {
     }
 
     .service-plans-container {
-        display: block;
-        width: 250%;
-        clear: both;
-        margin: 0 7%;
-    }
-
-    #bronze {
-        height: 250px;
-    }
-
-    #silver {
-        height: 350px;
-    }
-
-    #gold {
-        height: 400px;
+        width: auto;
+        margin: 0 5%;
     }
 
     #chain-img-container {
@@ -465,6 +465,11 @@ footer {
     #service-para p {
         width: 250px;
         text-align: center;
+    }
+
+    .submit-text {
+        margin: 20% 5%;
+        height: 450px;
     }
 
 }
@@ -504,11 +509,6 @@ footer {
         line-height: 20px;
     }
 
-    .rides-table caption {
-        width: 50%;
-        margin: 0 5%;
-    }
-
     #silver {
         height: 450px;
     }
@@ -540,14 +540,24 @@ footer {
         display: block;
     }
 
+    .submit-text {
+        margin: 20% 5%;
+        height: 600px;
+    }
+
 }
 
 /* For small / medium screen sizes*/
 
 @media screen and (max-width: 400px) {
 
+    header {
+        height: 50px;
+    }
+
     .services-header {
-        margin-top: 50%;
+        margin-top: 60%;
+        margin-bottom: 5%;
     }
 
     #chain-img {
@@ -558,23 +568,30 @@ footer {
         margin: 10%;
         text-align: center;
     }
+
+    .service-plans-container {
+        display: block;
+    }
+
+    .service_plans {
+        width: 300px;
+    }
     
     #spin-header {
-        margin-top: 90%;
+        margin-top: 60%;
     }
 
     #spin-para {
         margin-top: 5%;
     }
 
-    .rides-table caption {
-        height: 50px;
-        width: 300px;
-        margin: 3%;
-    }
-
     .home-text {
         margin-top: 20%;
+    }
+
+    .submit-text {
+        margin: 20% 5%;
+        height: 300px;
     }
 
 }
