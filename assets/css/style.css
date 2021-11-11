@@ -87,8 +87,8 @@ header {
 #hero-img {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-bike-img.webp') no-repeat center center;
-    filter: grayscale(50%); 
+    background: url('../images/cyclist_uphill.png') no-repeat center center;
+    filter: grayscale(90%); 
     display: flex;
 }
 
@@ -276,7 +276,7 @@ footer {
 }
 
 #spin-img {
-    background: url('../images/group-cycle-.jpg') no-repeat center center;
+    background: url('../images/group-cycle.png')no-repeat center center;
     height: 600px;
     width: 100%;
     filter: grayscale(90%);
