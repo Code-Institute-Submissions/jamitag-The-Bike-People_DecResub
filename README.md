@@ -11,7 +11,7 @@ everyone has a cycling experience to remember. Visitors to the website will be a
 maintenence requirements as well as book onto any of our group rides which roll out each morning, catering to 
 a range of cycling abilities.
 
- <img src="assets/images/readme-images/amiresponsive.webp">
+ <img src="assets/images/readme-images/amiresponsive.png">
 
 ## Features
 
@@ -30,7 +30,7 @@ The first feature that will be apparant to users is the hero image displayed on 
 motivational quote from the legendary, Eddy Merckx. This will leave no doubt in the users mind that this is 
 a website designed for cyclists.
 
-<img src="assets/images/readme-images/Home_screen_main_img.jpg">
+<img src="assets/images/readme-images/homescreen_main.png">
 
 - __What we do section__
 
@@ -38,7 +38,7 @@ This section displays the services available to our customers. Two simple option
 leaving the user wihtout any doubt as to their purpose. The user will click on they relevant option and will 
 be directed to the page they have selected.
 
-<img src="assets/images/readme-images/Home_screen_whatwedo_img.jpg">
+<img src="assets/images/readme-images/homescreen_whatwedo.png">
 
 - __Footer__
 
@@ -51,9 +51,9 @@ customers and where they can engage with ourselves as well as fellow cyclists.
 This page will display all information relating to services available. It will detail each level of service 
 and the price so the user can decide which service best fits their needs.
 
-<img src="assets/images/readme-images/Service_screen_main_img.jpg">
-<img src="assets/images/readme-images/Service_screen_text_and_img.jpg">
-<img src="assets/images/readme-images/Service_screen_service_options_img.jpg">
+<img src="assets/images/readme-images/service_screen_main.png">
+<img src="assets/images/readme-images/service_screen_text_img.png">
+<img src="assets/images/readme-images/service_screen_options.png">
 
 - __Social Spins page__
 
@@ -61,9 +61,15 @@ This page provides information to the user about regular Social Spins which take
 Here, the user will discover the when and where as well as suitability of the ride to ensure each participant 
 has an enjoyable ride. There is a form on this page for users to book their place on a ride.
 
-<img src="assets/images/readme-images/Social_spin_main_img.jpg">
-<img src="assets/images/readme-images/Social_spin_time_table.webp">
-<img src="assets/images/readme-images/Social_spin_form_img.jpg">
+<img src="assets/images/readme-images/spin_main.png">
+<img src="assets/images/readme-images/spin_time_table.png">
+<img src="assets/images/readme-images/spin_form.png">
+
+- __Form submission page__
+
+This page is a simple acknowledgement and thanks to the user that we have received their details from the form.
+
+<img src="assets/images/readme-images/submission_page.png">
 
 ### Features for the future
 
@@ -71,15 +77,6 @@ has an enjoyable ride. There is a form on this page for users to book their plac
 discuss any maintenance / servicing queries.
 - A gallery, illustrating the various scenic rides we offer.
 - Some animation features across the whole site once developers skill improves.
-
-## Deployment
-This site was deployed with GitHub using the below steps:
-
-- Within the relavant repository, select 'Settings'.
-- Navigate to the 'Pages' section displayed on the left menu.
-- Select the main branch from the drop-down menu and save to display the link to your website.
-
-The Bike People can be viewed [here](https://jamitag.github.io/The-Bike-People/)
 
 ## User Experience (UX)
 
@@ -124,7 +121,16 @@ The Bike People can be viewed [here](https://jamitag.github.io/The-Bike-People/)
 
 ## Testing
 
-Please find all testing information [here](https://jamitag.github.io/The-Bike-People/testing.md)
+Please find all testing information [here](https://github.com/jamitag/The-Bike-People/blob/main/testing.md)
+
+## Deployment
+This site was deployed with GitHub using the below steps:
+
+- Within the relavant repository, select 'Settings'.
+- Navigate to the 'Pages' section displayed on the left menu.
+- Select the main branch from the drop-down menu and save to display the link to your website.
+
+The Bike People can be viewed [here](https://jamitag.github.io/The-Bike-People/)
 
 ## Credits
 
