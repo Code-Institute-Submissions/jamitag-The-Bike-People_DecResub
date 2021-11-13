@@ -8,7 +8,7 @@ The website will also provide an opportunity for cyclist to come together and so
 to a community of like minded cycling enthusiasts who arrange regular rides around the Edinburgh and Lothian 
 region several times a week. Our passionate cycling professionals are knowledgable and skilled, ensuring 
 everyone has a cycling experience to remember. Visitors to the website will be able to view detailed 
-maintenence requirements as well as book onto any of our group rides which roll out each morning, catering to 
+maintenence plans as well as book onto any of our group rides which roll out each morning, catering to 
 a range of cycling abilities.
 
  <img src="assets/images/readme-images/amiresponsive.png">
@@ -20,7 +20,7 @@ a range of cycling abilities.
 - __Navigation Bar__
 
 The Navigation bar appears at the top of all three pages, maintaining a consistant look across the website. 
-Within, users will find links to a relavant area of interest i.e Services or Social Spins. The company name 
+Within, users will find links to a relavant area of interest i.e Servicing or Social Spins. The company name 
 appears in the left of the Navigation bar which will direct the user back to the homepage if clicked. Each 
 item in the Navigation bar will appear highlighted when on that particular page, to aid navigation.
 
@@ -49,7 +49,7 @@ customers and where they can engage with ourselves as well as fellow cyclists.
 - __Services page__
 
 This page will display all information relating to services available. It will detail each level of service 
-and the price so the user can decide which service best fits their needs.
+and the price so the user can decide which plan best fits their needs.
 
 <img src="assets/images/readme-images/service_screen_main.png">
 <img src="assets/images/readme-images/service_screen_text_img.png">
