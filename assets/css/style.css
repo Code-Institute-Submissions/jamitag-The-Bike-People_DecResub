@@ -378,7 +378,7 @@ footer {
     color: #560319;
 }
 
-/* Form submit page */
+/* form submit page */
 
 .submit-text {
     width 100%;
@@ -389,7 +389,7 @@ footer {
 .submit-text h2, p {
     width: 100%;
     text-align: center;
-    margin: auto%;
+    margin: auto;
     padding: 10px;
 }
 

@@ -34,9 +34,9 @@
 
 <!-- hero image -->
 
-    <section id="spin-img-container">
+    <div id="spin-img-container">
         <div id="spin-img"></div>
-    </section>
+    </div>
 
     <!-- social spin section -->
 
@@ -86,7 +86,9 @@
                 <li><input type="text" id="lname" name="lname" required></li>
                 <li><label for="email">Email Address:</label></li>
                 <li><input type="email" id="email" name="email" required></li>
-                <h3>Please select your preferred ride</h3>
+            </ul>
+            <h3>Please select your preferred ride</h3>
+            <ul>
                 <li><input type="radio" id="monday" name="ride_day" value="Monday">
                 <label for="monday">Monday</label></li>
                 <li><input type="radio" id="thursday" name="ride_day" value="Thursday">
@@ -95,11 +97,11 @@
                 <label for="friday">Friday</label></li>
                 <li><input type="radio" id="sunday" name="ride_day" value="Sunday">
                 <label for="sunday">Sunday</label></li>
-            <div class="pair-buttons">
+            </ul>
+            <ul class="pair-buttons">
                 <li><input type="submit" value="Submit" class="buttons"></li>
                 <li><input type="reset" class="buttons"></li>
-            </div>
-        </ul>
+            </ul>
         </form> 
     </section>
 
