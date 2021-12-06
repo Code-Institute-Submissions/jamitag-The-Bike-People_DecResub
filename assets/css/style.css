@@ -288,12 +288,6 @@ footer {
     margin: auto;
 }
 
-.radio-buttons {
-    text-align: left;
-    position: relative;
-    left: 150px;
-}
-
 /* Ride times */
 
 #ride-header {
@@ -366,10 +360,13 @@ footer {
     background-color: rgb(129, 127, 127);
 }
 
+.radio-buttons {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
 .pair-buttons {
-   display: flex;
-   margin: auto;
-   width: 25%;
    padding: 25px;
 }
 
@@ -552,15 +549,15 @@ footer {
 
     .service_plans {
         width: 300px;
+        margin-top: 10px;
     }
     
     #spin-header {
         margin-top: 60%;
     }
 
-    .radio-buttons {
-        left: 80px;
-        width: 100px;
+    .form {
+        height: 450px;
     }
 
     .home-text {
