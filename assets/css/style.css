@@ -181,27 +181,21 @@ footer {
     display: flex;
     width: 100%;
     text-align: center;
-    margin: 0 12%;
-}
-
-#chain-img-container {
-    width: 400px;
-    height: 400px;
 }
 
 #chain-img {
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     filter: grayscale(60%);
     border-radius: 5%;
-    margin: 0 10%;
+    margin: auto;
 }
 
 #service-para {
-    width: 600px;
-    height: 400px;
-    margin: 5%;
+    width: 90%;
+    height: 200px;
     box-sizing: border-box;
+    margin: 5%;
 }
 
 /* Service plans */
@@ -291,8 +285,13 @@ footer {
 
 #spin-para {
     text-align: center;
-    padding-top: 0%;
-    margin: 2% auto 5% auto; 
+    margin: auto;
+}
+
+.radio-buttons {
+    text-align: left;
+    position: relative;
+    left: 150px;
 }
 
 /* Ride times */
@@ -402,15 +401,6 @@ footer {
         display: block;
         margin: auto;
     }
-
-    #service-para p {
-        text-align: center;
-        width: 400px;
-    }
-
-    #chain-img {
-        margin: 0 50%;
-    }
 }
 
 /* For medium screen sizes*/
@@ -445,26 +435,25 @@ footer {
         margin: 0 5%;
     }
 
-    #chain-img-container {
-        margin: 5%;
-        width: 300px;
-        height: 300px;
-    }
-
     #chain-img {
         text-align: center;
-        margin: 0 60%;
+        margin: auto;
     }
 
-    #service-para {
-        margin: 0 30%;
-        text-align: center;
-        height: 500px;
+    .service_plans {
+        border-radius: 2%;
     }
 
-    #service-para p {
-        width: 250px;
+    #spin-para {
+        width: 90%;
         text-align: center;
+        margin: auto;
+    }
+
+    #form-header {
+        width: 90%;
+        text-align: center;
+        margin: 20px, auto;
     }
 
     .submit-text {
@@ -496,13 +485,13 @@ footer {
         margin-top: 40%;
     }
 
-    #spin-header {
-        margin-top: 40%;
+    #chain-img {
+        width: 300px;
+        height: 300px;
     }
 
-    #spin-para {
-        margin-top: 20%;
-        line-height: 20px;
+    #spin-header {
+        margin-top: 40%;
     }
 
     #form-header {
@@ -517,15 +506,8 @@ footer {
         height: 600px;
     }
 
-    #chain-img {
-        width: 300px;
-        height: 300px;
-        margin-bottom: 0;
-    }
-
     #service-para {
-        width: 400px;
-        margin-top: 0;
+        height: 400px;
     }
 
     .form {
@@ -564,11 +546,6 @@ footer {
         margin: auto;
     }
 
-    #service-para {
-        margin: 10%;
-        text-align: center;
-    }
-
     .service-plans-container {
         display: block;
     }
@@ -581,12 +558,14 @@ footer {
         margin-top: 60%;
     }
 
-    #spin-para {
-        margin-top: 5%;
+    .radio-buttons {
+        left: 80px;
+        width: 100px;
     }
 
     .home-text {
-        margin-top: 20%;
+        position: relative;
+        right: 20px;
     }
 
     .submit-text {
