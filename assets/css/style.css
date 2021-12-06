@@ -376,16 +376,29 @@ footer {
 
 /* form submit page */
 
+#submit-img-container {
+    height: 600px;
+    width: 100%;  
+}
+
+#submit-img {
+    background: url('../images/cyclist_uphill.png')no-repeat center center;
+    height: 600px;
+    width: 100%;
+    filter: grayscale(90%);
+    display: flex;
+}
+
 .submit-text {
     width 100%;
     height: 30px;
-    margin: 20%;
+    margin-top: 30px;
+    margin-bottom: 20%;
 }
 
 .submit-text h2, p {
     width: 100%;
     text-align: center;
-    margin: auto;
     padding: 10px;
 }
 
@@ -566,8 +579,8 @@ footer {
     }
 
     .submit-text {
-        margin: 20% 5%;
-        height: 300px;
+        margin-top: 60%;
+        height: 600px;
     }
 
 }
