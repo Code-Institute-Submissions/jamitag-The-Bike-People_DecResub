@@ -115,3 +115,15 @@ I discovered that when using the safari browser, the Raleway font did not functi
 
 - <b>Solution</b>
 This has been left unresolved; the alternate text that displays on safari is suitable and all other functions and properties are as they should be.
+
+- <b>Issue</b>
+Some horizontal scrolling issues persisted despite attempts to resolve.
+
+- <b>Solution</b>
+Further investigation identified that several paragraph elements had unnecessary margin and padding which was increasing the page width.
+
+- <b>Issue</b>
+After validation had taken place, changes where made to some pages as well as the creation of a whole new page (Form Submission page) which resulted in further errors which were unfotunatley missed.
+
+- <b>Solution</b>
+Further validatino has since taken place and all errors resolved. There will now be steps taken to ensure that validation becomes standard operating procedure at The Bike People!
