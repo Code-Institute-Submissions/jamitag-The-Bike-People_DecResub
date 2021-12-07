@@ -19,6 +19,8 @@ I designed the site to be responsive on the following screens;
 
 ## Validator testing 
 
+<i>There where validation issues discovered due to changes made after the validation below had taken place. More details can be found in the Issue section, below.</i>
+
 ### HTML
 
 I tested the HTML for each page using the [W3C HTML validation service](https://validator.w3.org/nu/)
