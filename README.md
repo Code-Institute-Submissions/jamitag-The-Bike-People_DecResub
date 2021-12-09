@@ -77,6 +77,7 @@ This page is a simple acknowledgement and thanks to the user that we have receiv
 discuss any maintenance / servicing queries.
 - A gallery, illustrating the various scenic rides we offer.
 - Some animation features across the whole site once developers skill improves.
+- In order to improve site performance, I would like to optimise the image size to ensure the image improves performance whilst still being of clear quality.
 
 ## User Experience (UX)
 
@@ -141,6 +142,7 @@ The Bike People can be viewed [here](https://jamitag.github.io/The-Bike-People/)
 - I also used a Hero image on each of my pages with parallels to Love Running.
 - I got influence for my servicing details from both of these businesses 
 [Harts](https://harts-cyclery.co.uk/servicing) & [Evans](https://www.evanscycles.com/book-a-service).
+- I was able to fix the horizontal scrolling issue by identifying elements with too much margin or padding which seemed to resolve the issue. To be certain no more horizontal scrolling would occur I applied the "overflow-x: hidden" attribute to the body. This was found in the following [link](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp).
 
 ### Media
 

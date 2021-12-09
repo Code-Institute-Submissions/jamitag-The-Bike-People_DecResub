@@ -13,6 +13,7 @@ body {
     font-family: raleway, sans-serif;
     font-weight: 600;
     letter-spacing: 4px;
+    overflow-x: hidden;
 }
 
 header {
@@ -368,6 +369,10 @@ footer {
    padding: 25px;
 }
 
+.pair-buttons li {
+    display:inline-block;
+}
+
 .buttons:hover {
     color: #560319;
 }
@@ -389,7 +394,7 @@ footer {
 
 .submit-text {
     height: 30px;
-    margin-top: 30px;
+    margin-top: 150px;
     margin-bottom: 20%;
 }
 
@@ -407,6 +412,10 @@ footer {
     .service-container {
         display: block;
         margin: auto;
+    }
+
+    #icons {
+        margin: 120px 0;
     }
 }
 
@@ -431,10 +440,6 @@ footer {
     #menu-items li a {
         text-align: center;
         
-    }
-    
-    .services-header {
-        margin-top: 10%;
     }
 
     .service-plans-container {
@@ -575,7 +580,8 @@ footer {
     }
 
     .submit-text {
-        margin-top: 60%;
+        margin-top: 70%;
+        margin-bottom: 0;
         height: 600px;
     }
 
