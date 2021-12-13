@@ -125,7 +125,7 @@ Some horizontal scrolling issues persisted despite attempts to resolve.
 Further investigation identified that several paragraph elements had unnecessary margin and padding which was increasing the page width.
 
 - <b>Issue</b>
-After validation had taken place, changes where made to some pages as well as the creation of a whole new page (Form Submission page) which resulted in further errors which were unfotunatley missed.
+After validation had taken place, changes where made to some pages as well as the creation of a whole new page (Form Submission page) which resulted in further errors which were unfortunatley missed.
 
 - <b>Solution</b>
 Further validatino has since taken place and all errors resolved. There will now be steps taken to ensure that validation becomes standard operating procedure at The Bike People!
